@@ -12,8 +12,10 @@ First time users, run this:
 
 This will create a config file and it will ask you for your
 Organization name within hipchat, your email address to login with,
-and your password. The config file is stored in the theme directory
-and is only readable by your account (and root, of course.)
+and your password. Hipchat does have an API for this, but it's locked 
+down in some organizations, so username/password is more widely usable. 
+The config file is stored in the theme directory and is only readable
+by your account (and root, of course.)
 
 Once setup, just run without any arguments. The images will be
 downloaded and the theme file created. Inside Pidgin, make sure to
